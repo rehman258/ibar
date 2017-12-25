@@ -1,0 +1,923 @@
+html body {
+	/*overflow-y: hidden;*/
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	perspective: 1000px;
+	background-color: blue;
+	overflow: hidden;
+}
+#areastart{
+	height: 100vh;
+	width: 100vw;
+	background-color: #4587CA;
+	overflow: hidden;
+	transition: all .5s ease;
+	transform: translate3d(0px, 0px, 0px);
+}
+#phtsback{
+	position: absolute;
+	height:662px;
+	width: 70vw;
+	right: -15px;
+	z-index: 2;
+	transition: all 2s ease;
+}
+.overcolor01{
+	position: absolute;
+	width: 100vw;
+	height: 48.5vw;
+	background-color: black;
+	z-index: 2;
+	opacity: 0.5;
+}
+#phtsback img{
+	width: 100%;
+	height: 100%;
+}
+#halfdiv{
+	position: absolute;
+	width: 101.5%;
+	height: 100%;
+    background-color:#2870d2;
+    z-index: 2;
+    transition: all 1.5s ease-out;
+    transform: skewX(0deg);
+    left: 0%;
+}
+.allwrite{
+	position: absolute;
+    width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+/*//////////////AREA BIG///////////////////////////*/
+.areabig{
+	height: 662px;
+	width: 100vw;
+	overflow:hidden;
+	z-index: 2;
+}
+/*//////////////////////////////////////////////*/
+#areastart .areabig .left{
+	position: relative;
+	top: 5%;
+	height: 75px;
+	width: 500px;
+	float: left;
+}
+#areastart .areabig .left h4{
+	cursor: pointer;
+}
+#areastart .areabig .left img{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+#areastart .areabig .right{
+	font-size: 12.5px;
+	position: relative;
+	top: 5%;
+	right: 3.5%;
+	height: 75px;
+	width: 700px;
+	float: right;	
+}
+#areastart .areabig .right li{
+    color: white;
+    cursor: pointer;
+    border-radius: 35%;
+}
+#areastart .areabig .right .elaqe{
+	width: 77px;
+
+}
+#areastart .areabig .right .online{
+	width: 77px;
+	margin-left: 10px;
+	
+}
+#areastart .areabig .right .price{
+	width: 230px;
+	font-size: 15px;
+}
+#areastart .areabig .right .mobil{
+	position: relative;
+	border:2px solid white;
+	height: 30px;
+	width: 140px;
+	font-size: 14px;
+	left: 1.09%;
+	
+}
+#areastart .areabig .right .mobil:hover{
+	background-color: white;
+	opacity: .5;
+}
+#areastart .areabig .right .onlinebank{
+	position: relative;
+	float: right;
+	border:2px solid white;
+	height: 30px;
+	width: 140px;
+	font-size: 14px;
+	
+}
+#areastart .areabig .right .onlinebank:hover{
+	background-color: white;
+	opacity: .5;
+}
+/*////////////AREA  BIG///////////////////////////////*/
+
+#areastart .areabig  li {
+	position: relative;
+	top: 10%;
+	text-align: center;
+	color: white;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	padding-top: 15px;
+	transition:all .5s ease;
+	border-radius: 10%;
+}
+#areastart .areabig .left li {
+	position: relative;
+	top: 10%;
+	text-align: center;
+	color: white;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	padding-top: 15px;
+	transition:all .5s ease;
+	border-radius: 10%;
+}
+#areastart .areabig .right li {
+	position: relative;
+	top: 10%;
+	text-align: center;
+	color: white;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	padding-top: 15px;
+	transition:all .5s ease;
+	border-radius: 10%;
+}
+/*/////////////////////////////////*/
+#areastart .areabig #logo{
+	padding: 0px;
+	width: 160px;
+	height: 60px;
+	color: black;
+	background-color: lightgrey;
+	border-radius: 5%;
+}
+/*/////////////////////////////////*/
+#areastart .areabig #ferdi {
+	position: relative;
+	cursor: pointer;
+	top:25%;
+    width: 90px;
+}
+#areastart .areabig #ferdi li{
+	font-size: 20px;
+}
+#areastart .areabig .left #ferdi:hover{
+	background-color: white;
+	opacity: 0.5;
+}
+/*/////////////////////////////////*/
+#areastart .areabig #korporativ{
+	position: relative;
+	width: 125px;
+	top:25%;
+}
+#areastart .areabig .left #korporativ:hover{
+	background-color: white;
+	opacity: 0.5;
+}
+/*/////////////////////////////////*/
+#areastart .areabig #investors{
+	position: relative;
+	top:25%;
+	width: 125px;
+}
+#areastart .areabig .left #investors:hover{
+	background-color: white;
+	opacity: 0.5;
+}
+/*/////////////CENTER SLIDE///////////////////////////*/
+#centerslide{
+	left:25.5%;
+	top: -80vh;
+	position: relative;
+	height: 350px;
+	width: 640px;
+	transition: all .5s ease-out;
+	z-index: 3;
+}
+/*////////////////////////////////////*/
+#centerslide .centerslideup{
+	width: 640px;
+	height: 130px;
+}
+#magicover{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background:none;
+	display: none;
+	z-index: 1;
+}
+#centerslide .centerslideup #centerslideup1{
+	position: relative;
+	top: 50px;
+	bottom: -35%;
+	width: 640px;
+	height: 80px;
+	transition: all .5s ease;
+}
+#centerslide .centerslideup #centerslideup1 p{
+	position: absolute;
+	top: 0;
+	bottom: -0.5%;
+	height: 54.5px;
+	padding-top: 25px;
+	width: 540px;
+	color: white;
+	font-size:30px;
+	z-index: 1;
+	transition: all .5s ease;
+}
+#centerslide .centerslideup #centerslideup1 input{
+	position: absolute;
+	top: 30%;
+	width: 530px;
+	height: 55px;
+    border: none;
+    background:none;
+    font-size: 25px;
+    color: white;
+}
+#centerslide .centerslideup #centerslideup1 span{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+#centerslide .centerslideup #centerslideup1 #magicspan2{
+	bottom: -20px;
+	cursor: text;
+}
+#centerslide .centerslideup #centerslideup1 span i{
+	font-size: 40px;
+	color: white;
+}
+#centerslide .centerslideup #centerslideup1 hr{
+	position: relative;
+	width: 100%;
+	bottom: -34%;
+	border:2px solid grey;
+	z-index: 1;
+
+}
+#centerslide .centerslideup #centerslideup2{
+	position: relative;
+	top: -3%;
+	width: 640px;
+	height: 50px;
+	display: none;
+}
+#centerslide .centerslideup #centerslideup2 ul {
+	margin-top: 5px;
+	width: 100%;
+}
+#centerslide .centerslideup #centerslideup2 li{
+	cursor: pointer;
+	height: 20px;
+	padding-top:5px;
+	text-align: center;
+	margin-left: 5px;
+    width: 75px;
+	display: inline-block;
+	background-color: #7CA2D5;
+	border-radius: 45%;
+	color: white;
+}
+#centerslide .centerslideup #centerslideup2 .lastliwidth{
+	width: 125px;
+}
+#centerslide .centerslideup #centerslideup2 .livp{
+	background:none;
+}
+/*/////////////////////////////////////////*/
+#centerslide .centerslidedown{
+	width: 640px;
+	height:220px;
+}
+/*//////////////////////////////////////////////*/
+#centerslide .centerslidedown1{
+	width: 410px;
+	height: 200px;
+	border-radius: 5%;
+	background-color: blue;
+}
+#centerslide .centerslidedown1 .centerphotos{
+	position: absolute;
+    width: 410px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+#centerslide .centerslidedown1 .centerphotos img{
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 2s ease;
+}
+#centerslide .centerslidedown1 .centerpoint{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+}
+#centerslide .centerslidedown1 .centerpoint li{
+	border-radius: 100%;
+	border:2px solid white;
+	height: 7.5px;
+	width: 7.5px;
+	background-color: grey;
+	margin-right: 2px;
+	display: inline-block;
+	cursor: pointer;
+}
+/*////////////////////////////////////////////////////////*/
+#centerslide .centerslidedown02{
+	cursor: pointer;
+	border-radius: 5%;
+	position: absolute;
+	right: 0%;
+	top: 37%;
+    width: 200px;
+    height: 200px;
+    background-color: #7CA2D5;
+    transition: all 1s ease;
+}
+#centerslide .centerslidedown02:hover{
+	transform: scale(1.02);
+}
+#centerslide .centerslidedown02 h1{
+	position: relative;
+	left: 21%;
+	top: 5%;
+	color: white;
+}
+#centerslide .centerslidedown02 h6{
+	position: relative;
+	left: 20%;
+	bottom: -80%;
+	color: white;
+	font-size: 10px;
+}
+#centerslide .centerslidedown02 span{
+	position: relative;
+	bottom: -45%;
+	height: 85px;
+	width: 85px;
+	float: right;
+}
+#centerslide .centerslidedown02 span img{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+}
+/*/////////DOWN WRITE //////////////////////////////////*/
+.downwrite{
+	position: absolute;
+	bottom: 0%;
+	width: 100vw;
+	height: 100px;
+}
+.downwrite .downleft{
+	margin-left: 20px;
+	position: relative;
+	width: 550px;
+	height: 100px;
+	display: inline-block;
+}
+.downwrite .downleft .downleft1{
+     width: 550px;
+     height: 50px;
+}
+.downwrite .downleft .downleft1 li{
+	cursor: pointer;
+	width: 90px;
+	height: 10px;
+	margin-left: 12px;
+}
+.downwrite .downleft .downleft1 li:hover hr{
+	display: none;
+}
+.downwrite .downleft .downleft1 li hr{
+	position: relative;
+	top: -7.5px;
+	width: 100%;
+	height: 0px;
+	border: .5px solid white;
+}
+.downwrite .downleft .downleft1 .specialli{
+	width: 130px;
+}
+.downwrite .downleft .downleft2{
+	width: 550px;
+	height: 50px;
+}
+.downwrite .downleft .downleft2 span{
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	font-size: 5px;
+}
+.downwrite .downleft .downleft2 img{
+	position: absolute;
+	height: 10px;
+	left: -20px;
+}
+.downwrite .downleft .downleft2 li{
+	width: 100px;
+}
+.downwrite .downleft .downleft2 .specialli02{
+	margin-left: 10px;
+	width: 300px;
+	font-size: 11px;
+}
+.downwrite .downleft .downleft2 .specialli03{
+   margin-left: 20px;
+   font-size:  11px;
+}
+.downwrite .downleft .downleft2 .specialli04{
+   margin-left: -45px;
+   font-size:  11px;
+   cursor: pointer;
+}
+.downwrite .downleft .downleft2 .specialli04 hr{
+	width: 13px;
+	position: relative;
+	right: -9%;
+	top: -6.5px;
+	display: none;
+}
+.downwrite .downleft .downleft2 .specialli04:hover hr{
+	display: block;
+
+}
+/*//////////////////////////////////////////////////*/
+.downwrite .downcenter{
+	position: relative;
+	left: 2.5%;
+	width: 300px;
+	height: 100px;
+	display: inline-block;
+}
+.downwrite .downcenter .downcenterleft{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+.downwrite .downcenter .downcenterleft img{
+	height: 50px;
+	position: absolute;
+	top: 21px;
+	left: 25px;
+	width: 50px;
+	color: grey;
+}
+.downwrite .downcenter .downcenterright{
+	position: absolute;
+	width: 200px;
+	height: 400px;
+	display: inline-block;
+    right: 0%;
+    background-color: grey;
+}
+/*///////////////////////////////////////////////////*/
+.downwrite .downright{
+	position: relative;
+	width: 350px;
+	height: 100px;
+	display: inline-block;
+	float: right;
+}
+.downwrite .downright .downright01{
+	position: relative;
+	height: 50px;
+	width: 350px;
+}
+.downwrite .downright .downright01 li{
+	margin-left: 20px;
+	margin-right: 10px;
+	color: lightgrey;
+	font-size: 15px;
+	cursor: pointer;
+}
+.downwrite .downright .downright01 li:hover hr{
+    display: none;
+}
+.downwrite .downright .downright02{
+	position: relative;
+	height: 50px;
+	width: 350px;
+}
+.downwrite .downright .downright02 span{
+	margin-right: 5px;
+	cursor: pointer;	
+	color: lightgrey;
+	margin-left: 20px;
+}
+.downwrite .downright .downright02 img{
+	position: absolute;
+	top: -25px;
+	height: 45px;
+	width: 45px;
+}
+
+/*/////////////SECRET LEFT/////////////////////////*/
+#areastart .secretleft {
+	z-index: 2;
+	color: white;
+	position: relative;
+	width: 400px;
+}
+/*///////SECRET LEFT 1/////////////////////*/
+#areastart #secretleft1 {
+	transition: all 3s ease;
+	width: 400px;
+	position: absolute;
+	left: 100;
+	top: 150px;
+	display:none;
+	transition: all 3s ease;
+}
+#areastart #secretleft1 h1{
+	position: relative;
+	left: -10%;
+	font-size: 40px;
+	text-align: left;
+}
+#areastart #secretleft1 ul{
+	width: 200px;
+	position: relative;
+	top: 50px;
+	left: -10%;
+}
+#areastart #secretleft1 ul li{
+	font-weight: 20px;
+	text-align: left;
+	width: 200px;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+#areastart #secretleft1 ul li hr{
+	width: 50%;
+	position: relative;
+	left: -25%;
+	display: none;
+	transition: all 2s ease;
+}
+#areastart #secretleft1 ul li:hover hr {
+     display: block;
+}
+/*///////SECRET LEFT 1/////////////////////*/
+#areastart #secretleft2 {
+	transition: all 3s ease;
+	width: 450px;
+	height: 40px;
+	position: absolute;
+	left: 100;
+	top: 150px;
+	display: none;
+}
+#areastart .secretleft {
+	z-index: 2;
+	color: white;
+	position: relative;
+	width: 400px;
+}
+#areastart #secretleft2 h1{
+	position: relative;
+	left: -10%;
+	font-size: 40px;
+	text-align: left;
+}
+#areastart #secretleft2 ul{
+	width: 200px;
+	position: relative;
+	top: 50px;
+	left: -10%;
+	margin-right: 10px;
+}
+#areastart #secretleft2 ul li{
+	font-size: 20px;
+	text-align: left;
+	width: 200px;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+#areastart #secretleft2 ul li hr{
+	width: 50%;
+	position: relative;
+	left: -25%;
+	display: none;
+}
+#areastart #secretleft2 ul li:hover hr {
+     display: block;
+}
+/*///////SECRET LEFT 1/////////////////////*/
+#areastart #secretleft3 {
+	transition: all 3s ease;
+	width: 100px;
+	position: absolute;
+	left: 50px;
+	top: 250px;
+	display: none;
+}
+#areastart #secretleft3 h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+#areastart #secretleft3 h6{
+	cursor: pointer;
+    width: 400px;
+    font-size: 25px;
+}
+#areastart #secretleft3  hr{
+	width: 90%;
+	position: relative;
+	left: -5%;
+	display: none;
+}
+#areastart #secretleft3 h6:hover hr {
+     display: block;
+}
+/*///////////// SECRET DIVS  ////////////////////////////*/
+#areastart .secretwrite1{
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	background-color: green;
+	right: -40%;
+    z-index: 1;
+}
+#areastart .secretwrite2{
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	background-color: green;
+	right: -40%;
+	z-index: 1;
+}
+#areastart .secretwrite3{
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	background-color: green;
+	right: -40%;
+	z-index: 1;
+}
+#areastart .secretwrite4{
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	background-color: green;
+	right: -40%;
+	z-index: 1;
+}
+/*/////////////////////HIDDEN OVERLAY//////////////////*/
+#onlyover{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100vw;
+	height: 100vh;
+	background-color:black;
+	opacity: .1;
+	z-index: 3;
+	display: none;
+}
+/*////////////HİDDEN RİGHT SECTİONS///////////*/
+#hiddenright{
+	position: relative;
+	height: 100vh;
+	width: 1095px;
+	background-color: grey;
+	display: inline-block;
+	right: -85%;
+	top: -662px;
+	left: 101.5%;
+}
+/*///////////////////////////////*/
+#hiddenright01{
+	position: absolute;
+	height: 100vh;
+	width: 360px;
+	background-color: green;
+	background-image:url(images/rightphoto.jpg);
+	display: block;
+	z-index: 3;
+	transition: all .5s ease;
+	left: 0%;
+}
+#hiddenright01 h4{
+	padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 
+    height: 0.5px;
+}
+#hiddenright01 ul {
+	height: 250px;
+	width: 360px;
+}
+.specdiv{
+	position: relative;
+    margin-top: 35px;
+    padding-left: 30px;
+}
+#hiddenright01 span{
+	cursor:pointer;
+	position: relative;
+	width: 50px;
+	color: lightgrey;
+	height: 50px;
+	font-size: 40px;
+	right: -75%;
+	top: -35px;
+}
+#hiddenright01 hr{
+	position: relative;
+	margin-top: 25px;
+}
+#hiddenright01 li {
+	cursor: pointer;
+    position: relative;
+    margin-top: 35px;
+    padding-left: 30px;
+    width: 330px;
+    height: 50px;
+    transition:all 0.5s ease;
+}
+
+#hiddenright01 li:hover{
+	background-color:lightgrey;
+
+}
+/*//////////////////////////////////////////*/
+#hiddenright02{
+	position: absolute;
+	height: 100vh;
+	width: 360px;
+	background-image: url(images/rightman.jpg);
+	display: block;
+	z-index: 3;
+	transition: all .5s ease;
+	left: 0%;
+}
+#hiddenright02 h4{
+	padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 
+    height: 0.5px;
+}
+#hiddenright02 ul {
+	height: 250px;
+	width: 360px;
+}
+.specdiv{
+	position: relative;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+#hiddenright02 span{
+	cursor:pointer;
+	position: relative;
+	width: 50px;
+	color: lightgrey;
+	height: 50px;
+	font-size: 40px;
+	right: -75%;
+	top: -35px;
+}
+#hiddenright02 hr{
+	position: relative;
+	margin-top: -10px;
+}
+#hiddenright02 li {
+	cursor: pointer;
+    position: relative;
+    margin-top: 5px;
+    padding-left: 30px;
+    width: 330px;
+    height: 50px;
+    transition:all 0.5s ease;
+}
+
+#hiddenright02 li:hover{
+	background-color:lightgrey;
+
+}
+/*////////////////////////////////////////////*/
+#hiddenright03{
+	position: absolute;
+	background-color: green;
+	height: 100vh;
+	width: 1095px;
+	display: block;
+	z-index: 3;
+	transition: all .5s ease;
+	left: 0%;
+}
+.specdiv{
+	position: relative;
+    margin-top: 35px;
+    padding-left: 30px;
+}
+#hiddenright03 h4{
+	padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 
+    height: 0.5px;
+}
+#hiddenright03 span{
+	cursor:pointer;
+	position: relative;
+	width: 50px;
+	color: lightgrey;
+	height: 50px;
+	font-size: 40px;
+	right: -75%;
+	top: -35px;
+}
+/*///////////////////////////////////////////////*/
+#hiddenright04{
+	position: absolute;
+	top: -1.5%;
+	height: 100vh;
+	width: 360px;
+	background-image: url(images/rightman.jpg);
+	display: block;
+	z-index: 3;
+	transition: all .5s ease;
+	left: 0%;
+}
+#hiddenright04 h4{
+	padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    font-family: 
+    height: 0.5px;
+}
+#hiddenright04 ul {
+	height: 250px;
+	width: 360px;
+}
+.specdiv{
+	position: relative;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+#hiddenright04 span{
+	cursor:pointer;
+	position: relative;
+	width: 50px;
+	color: lightgrey;
+	height: 50px;
+	font-size: 40px;
+	right: -75%;
+	top: -35px;
+}
+#hiddenright04 hr{
+	position: relative;
+	margin-top: -10px;
+}
+#hiddenright04 li {
+	cursor: pointer;
+    position: relative;
+    margin-top: 5px;
+    padding-left: 30px;
+    width: 330px;
+    height: 50px;
+    transition:all 0.5s ease;
+}
+
+#hiddenright04 li:hover{
+	background-color:lightgrey;
+
+}
